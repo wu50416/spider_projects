@@ -24,12 +24,12 @@ def get_cookie_list():
     # -------------------这个方法爬多了会出现验证码(建议这块代码注释掉然后手动)-------------
     driver.maximize_window()
     time.sleep(2.1)
-    name = "17688688515"
+    name = "输入淘宝账号"
     for i in name:      # 模拟人工输入
         driver.find_element(By.XPATH, '//*[@id="fm-login-id"]').send_keys(i)
         time.sleep(float(random.randint(1000,2000)/10000))     # 0.1~0.2秒的速度输入一个字符
     time.sleep(1.4)
-    keyword = 'wu504168539'
+    keyword = '输入淘宝密码'
     for i in keyword:
         driver.find_element(By.XPATH, '//*[@id="fm-login-password"]').send_keys(i)
         time.sleep(float(random.randint(1000,2000) / 10000))
