@@ -892,4 +892,4 @@ function get_dynamicToken(seedToken, pin, timestamp){
     var f = token(seedToken, pin, timestamp);
     return f
     }
-console.log(get_dynamicToken('','',1638845202777))
+// console.log(get_dynamicToken('','',1638845202777))
