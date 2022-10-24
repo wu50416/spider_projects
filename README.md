@@ -5,7 +5,7 @@
 
 1、爬取淘宝数据,解决cookie问题，解决验证问题
 
-![image](https://user-images.githubusercontent.com/103317042/165955601-813bf828-84eb-42bf-a239-c1e0fda6c466.png)
+![image](https://user-images.githubusercontent.com/103317042/197500539-10988840-d2d9-4b27-8f20-f1f85c9ccfe8.png)
 
 2、多线程搭建ip池
 
