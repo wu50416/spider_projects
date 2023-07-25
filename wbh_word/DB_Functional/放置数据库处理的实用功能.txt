@@ -1,0 +1,12 @@
+实用功能：
+1、Add_Mongo_Field ： 给Mongo全部数据新增一个字段，并赋值
+2、Contrast_Mongo_data：对比Mongo两个表数据，返回缺少的部分的值
+3、Get_min_data：获取最小层级的数据（a1,a2,a3,a4，当a4有数据则先取a4，当为空再判断a3是否有数据....）
+
+数据迁移部分：
+3、Move_Mongo_data  将Mongo旧表数据插入新表中
+4、Move_Mysql_data    将Mysql旧表数据插入新表中
+5、Move_Mysql_To_Mongo   将Mysql某些字段同步到Mongo中  Mysql -> Mongo
+6、Move_Mysql_Different_DB       将一个库数据插入到另一个库中
+
+
