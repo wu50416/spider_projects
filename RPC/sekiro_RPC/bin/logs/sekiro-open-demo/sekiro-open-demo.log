@@ -1,0 +1,23 @@
+[2023-07-17 10:00:27,993 [eventRecorder]  INFO EventTrace:147]  sessionId:9f0bdcfa-c1c5-4c5a-b96c-087c57035505 -> new request from: [id: 0x14b4102b, L:/127.0.0.1:6001 - R:/127.0.0.1:63237]
+[2023-07-17 10:00:27,999 [eventRecorder]  INFO EventTrace:147]  sessionId:9f0bdcfa-c1c5-4c5a-b96c-087c57035505 -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2023-07-17 10:00:27,999 [eventRecorder]  INFO EventTrace:147]  sessionId:9f0bdcfa-c1c5-4c5a-b96c-087c57035505 -> http request
+[2023-07-17 10:00:27,999 [eventRecorder]  INFO EventTrace:147]  sessionId:9f0bdcfa-c1c5-4c5a-b96c-087c57035505 -> this is sekiro  request, handle netty http turning
+[2023-07-17 10:00:28,000 [eventRecorder]  INFO EventTrace:147]  sessionId:9f0bdcfa-c1c5-4c5a-b96c-087c57035505 -> this is websocket request
+[2023-07-17 10:00:28,000 [eventRecorder]  INFO EventTrace:147]  sessionId:73d56967-b68b-fcc3-417b-133e16921c64 -> client register with type: 
+[2023-07-17 10:01:25,435 [eventRecorder]  INFO EventTrace:147]  sessionId:9f0bdcfa-c1c5-4c5a-b96c-087c57035505 -> user connection closed
+[2023-07-17 10:01:25,436 [eventRecorder]  INFO EventTrace:147]  sessionId:73d56967-b68b-fcc3-417b-133e16921c64 -> client disconnect
+[2023-07-17 11:00:59,097 [eventRecorder]  INFO EventTrace:147]  sessionId:44c6c673-95e1-47f1-883f-e2cae67ed4bc -> new request from: [id: 0x0e36cd55, L:/127.0.0.1:6001 - R:/127.0.0.1:51129]
+[2023-07-17 11:00:59,099 [eventRecorder]  INFO EventTrace:147]  sessionId:44c6c673-95e1-47f1-883f-e2cae67ed4bc -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2023-07-17 11:00:59,099 [eventRecorder]  INFO EventTrace:147]  sessionId:44c6c673-95e1-47f1-883f-e2cae67ed4bc -> http request
+[2023-07-17 11:00:59,099 [eventRecorder]  INFO EventTrace:147]  sessionId:44c6c673-95e1-47f1-883f-e2cae67ed4bc -> this is sekiro  request, handle netty http turning
+[2023-07-17 11:00:59,100 [eventRecorder]  INFO EventTrace:147]  sessionId:44c6c673-95e1-47f1-883f-e2cae67ed4bc -> this is websocket request
+[2023-07-17 11:00:59,100 [sekiro-worker-3-19] ERROR c.i.s.business.netty.util.ResourceLeakDetector:176]  LEAK: ByteBuf.release() was not called before it's garbage-collected. Enable advanced leak reporting to find out where the leak occurred. To enable advanced leak reporting, specify the JVM option '-Dcn.iinti.sekiro3.business.netty.leakDetection.level=advanced' or call ResourceLeakDetector.setLevel() See http://netty.io/wiki/reference-counted-objects.html for more information.
+[2023-07-17 11:00:59,107 [eventRecorder]  INFO EventTrace:147]  sessionId:da584280-5014-62e1-caf6-34aee4874193 -> client register with type: 
+[2023-07-17 11:01:02,718 [eventRecorder]  INFO EventTrace:147]  sessionId:44c6c673-95e1-47f1-883f-e2cae67ed4bc -> user connection closed
+[2023-07-17 11:01:02,718 [eventRecorder]  INFO EventTrace:147]  sessionId:da584280-5014-62e1-caf6-34aee4874193 -> client disconnect
+[2023-07-17 11:01:09,798 [eventRecorder]  INFO EventTrace:147]  sessionId:b2062d61-5065-42c2-93d8-50e8d354c4a0 -> new request from: [id: 0x95881b3b, L:/127.0.0.1:6001 - R:/127.0.0.1:51140]
+[2023-07-17 11:01:09,799 [eventRecorder]  INFO EventTrace:147]  sessionId:b2062d61-5065-42c2-93d8-50e8d354c4a0 -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2023-07-17 11:01:09,799 [eventRecorder]  INFO EventTrace:147]  sessionId:b2062d61-5065-42c2-93d8-50e8d354c4a0 -> http request
+[2023-07-17 11:01:09,799 [eventRecorder]  INFO EventTrace:147]  sessionId:b2062d61-5065-42c2-93d8-50e8d354c4a0 -> this is sekiro  request, handle netty http turning
+[2023-07-17 11:01:09,799 [eventRecorder]  INFO EventTrace:147]  sessionId:b2062d61-5065-42c2-93d8-50e8d354c4a0 -> this is websocket request
+[2023-07-17 11:01:09,800 [eventRecorder]  INFO EventTrace:147]  sessionId:3e3fba1f-4866-b2f9-3f29-9f12461186a7 -> client register with type: 
