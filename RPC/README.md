@@ -2,7 +2,7 @@
 前提：需要在网页端启动油猴脚本！
 
 设置端口：
-修改 conf/config.properties 文件 sekiro.port=6001  修改端口    与 油猴的脚本代码的端口保持一致
+修改 conf/config.properties 文件 sekiro.port=6001  修改端口 与 油猴的脚本代码的端口保持一致
 
 在运行之前：
 1、需要先打开 浏览器 对应的网站
