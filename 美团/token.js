@@ -3592,13 +3592,19 @@ navigator = {       // 指纹识别
     }, {}, [17])
 }
 )();
-
+debugger
 // 定义入口函数
 var url = "https://gz.meituan.com/meishi/api/poi/getPoiList?cityName=广州&cateId=0&areaId=0&sort=price_asc&dinnerCountAttrId=&page=1&userId=754270772&uuid=3440f348ca534abea52c.1660792952.1.0.0&platform=1&partner=126&originUrl=https://gz.meituan.com/meishi/price_asc/&riskLevel=1&optimusCode=10"
 // 调用我前面导出的入口函数
-var token = function (url) {
-    return window.get_token(url)
+function token(url) {
+    var aaaa = window.get_token(url)
+    // console.log(aaaa)
+    // callback(aaaa)           // 后续可以尝试使用异步回调
+    return aaaa
 }
+// debugger
 console.log(token(url))
+
+
 
 
