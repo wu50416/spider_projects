@@ -11,7 +11,9 @@
 
 2、在油猴上修改头信息   Ag：       // @match        https://www.taobao.com/*
 
-3、修改需要执行的js代码：默认为：            var result = document.cookie;
+3、修改需要执行的js代码：默认为：           
+
+                                          var result = document.cookie;
 
                                           resolve(result);
                                           
