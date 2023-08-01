@@ -4,20 +4,9 @@ import pymysql
 from pymysql.converters import escape_string
 from wbh_word.manage_database.db_connection_pool import DbTool
 
-# connect = pymysql.connect(host='192.168.1.105',
-#                           port=3306,
-#                           user='wbh',
-#                           password='wbh!#123456',
-#                           db='ods_data',
-#                           charset='utf8',
-#                           autocommit=1  # 自动提交
-#                           )
-# cur = connect.cursor()
 
-
-# DB = DbTool('mysql', 'YWF_Spider')        # 域外法运行环境库
 # DB = DbTool('mysql', 'test_mysql_wbh')      # 测试环境   暂时被弃用    # 默认为测试环境 105的ods_data库
-DB = DbTool('mysql', 'test_mysql_wd')           # 东哥给的新数据库，放测试数据
+DB = DbTool('mysql', 'test_mysql_wd')           # 新数据库，放测试数据
 
 
 def save_data(table, data_list):
