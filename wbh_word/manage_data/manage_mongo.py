@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 
 def connect_mongodb():
-    handler = MongoClient("192.168.2.140", 38017).anhua
+    handler = MongoClient("192.168.1.1", 38017).anhua
     return handler
 
 
