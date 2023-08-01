@@ -7,8 +7,8 @@
 '''
 from clickhouse_driver import Client
 
-client = Client(host='192.168.1.103', port='9000',
-                user="default", password="7I2bHFLv",
+client = Client(host='192.168.1.1', port='3306',
+                user="default", password="123456",
                 database='oodliadb')
 
 # database = default 用于测试
