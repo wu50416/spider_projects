@@ -1,5 +1,5 @@
 ### 1、京东登陆验证码（js） 
-![img_2.png](img_2.png)
+![img_1.png](img_1.png)
 ![img.png](img.png)
 ### 2、京东法拍网数据采集 + 解析：https://auction.jd.com/sifa.html
 
