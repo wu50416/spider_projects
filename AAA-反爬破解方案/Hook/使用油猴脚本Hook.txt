@@ -1,0 +1,21 @@
+// ==UserScript==
+// @name         pass-debugger
+// @namespace    http://tampermonkey.net/
+// @version      2024-06-01
+// @description  Stops most anti debugging implementations by JavaScript obfuscaters
+// @author       ww
+// @match        https://match2023.yuanrenxue.cn/*
+// @grant        unsafeWindow
+// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @run-at       document-start
+// ==/UserScript==
+
+(function() {
+    var _Function = Function
+    Function.prototype.constructor = function(){
+        if (arguments[0].indexOf('debugger') != -1){
+            arguments[0] = arguments[0].replaceAll('debugger','')
+        }
+        return _Function.apply(this,arguments )
+    }
+})();
